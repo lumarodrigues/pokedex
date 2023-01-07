@@ -1,0 +1,37 @@
+/* Importing the font */
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+/* Setting config to the whole project */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, lightblue, white);
+    min-height: 100vh;
+}
+
+main {
+    display: inline-block;
+    margin-top: 1%;
+    padding: 10px;
+    position: relative;
+}
+
+.pokedex {
+    width: 100%;
+    max-width: 380px;
+}
+
+.pokemon__image {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    height: 15%;
+}
