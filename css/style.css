@@ -35,3 +35,18 @@ main {
     left: 35%;
     height: 15%;
 }
+
+.pokemon__data {
+    position: absolute;
+    font-weight: 600;
+    color: #aaa;
+    top: 54.5%;
+    right: 27%;
+    /* 5vw - 5% of screen width */
+    font-size: clamp(10px, 5vw, 30px)
+}
+
+.pokemon__name {
+    color: black;
+    text-transform: capitalize;
+}
